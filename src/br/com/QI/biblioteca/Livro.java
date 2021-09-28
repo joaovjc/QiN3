@@ -11,8 +11,6 @@ public class Livro {
     
     private String nomeDoLivro;
     private BigDecimal preco;
-    //Iria ser uma mão para usar bigDecimal, ent mudei de ideia :)
-    //private BigDecimal preco;
     
     public Livro(String nomeDoLivro, BigDecimal preco) {
         if (nomeDoLivro == null)throw new NullPointerException("O Nome Do Livro não pode ser null");
