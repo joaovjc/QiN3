@@ -13,7 +13,7 @@ public class Livro {
     private BigDecimal preco;
     
     public Livro(String nomeDoLivro, BigDecimal preco) {
-        if (nomeDoLivro == null)throw new NullPointerException("O Nome Do Livro não pode ser null");
+        if (nomeDoLivro == null)throw new ValidacaoException("O Nome Do Livro não pode ser null");
         this.nomeDoLivro = nomeDoLivro;
         this.preco = preco;
     }
